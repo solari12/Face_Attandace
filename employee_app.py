@@ -73,7 +73,7 @@ class EmployeeSystem:
         camera_control_frame = ttk.Frame(camera_frame)
         camera_control_frame.pack(padx=5, pady=5)
         
-        self.attendance_start_btn = ttk.Button(camera_control_frame, text="Bắt đầu nhận diện", 
+        self.attendance_start_btn = ttk.Button(camera_control_frame, text="Điểm danh", 
                                              command=self.toggle_attendance_camera)
         self.attendance_start_btn.pack(side="left", padx=5)
         
