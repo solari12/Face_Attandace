@@ -50,9 +50,13 @@ pip install -r requirements.txt
 
 ### 1. Khởi động ứng dụng
 
-Chạy file main_app.py để khởi động ứng dụng:
+Chạy file manager_app.py để khởi động ứng dụng cho quản lý:
 ```bash
-python manager_app.py
+python manager_app.py 
+```
+Chạy file employee_app.py để khởi động ứng dụng cho nhân viên:
+```bash
+python employee_app.py 
 ```
 ### 3. Thu thập dữ liệu khuôn mặt
 
